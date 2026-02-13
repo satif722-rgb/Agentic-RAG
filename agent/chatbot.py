@@ -100,10 +100,16 @@ def router_node(state: HRState):
 
     updates = {}
 
+    # 🔥 Clear previous answers every new turn
+    updates["policy_answer"] = None
+    updates["personal_answer"] = None
+
+    # Extract employee ID
     extracted_id = extract_employee_id(question)
     if extracted_id:
         updates["employee_id"] = extracted_id
 
+    # Extract leave type
     extracted_leave = extract_leave_type(question)
     if extracted_leave:
         updates["leave_type"] = extracted_leave
@@ -112,6 +118,7 @@ def router_node(state: HRState):
     updates["route"] = route
 
     return updates
+
 
 
 def extract_leave_type(text: str):
