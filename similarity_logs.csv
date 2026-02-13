@@ -1,0 +1,161 @@
+timestamp,question,score,file_name,page,text_preview
+2025-12-31T15:35:50,How many earned leaves can be accumulated?,1,0.7323,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T15:35:50,How many earned leaves can be accumulated?,2,0.8207,leave_policy.pdf,0,Earned Leave (EL)   Eligibility:  o Employees become eligible for Earned Leave 
+2025-12-31T15:35:50,How many earned leaves can be accumulated?,3,0.9518,leave_policy.pdf,1, Accumulation:  o Medical Leave can be accumulated up to a maximum of 28 days. 
+2025-12-31T15:35:50,How many earned leaves can be accumulated?,4,0.9987,leave_policy.pdf,0," New Joiners:  o For employees joining mid-year, Casual Leave is credited on a "
+2025-12-31T15:35:50,How many earned leaves can be accumulated?,5,1.0014,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:36:02,How many casual leaves are allowed per year?,1,0.816,leave_policy.pdf,0," New Joiners:  o For employees joining mid-year, Casual Leave is credited on a "
+2025-12-31T15:36:02,How many casual leaves are allowed per year?,2,0.8916,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:36:02,How many casual leaves are allowed per year?,3,0.9144,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2025-12-31T15:36:02,How many casual leaves are allowed per year?,4,0.9216,leave_policy.pdf,3,Public Holidays   The organization provides 12 public holidays each year.   Th
+2025-12-31T15:36:02,How many casual leaves are allowed per year?,5,0.9302,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T15:36:18,Are weekends counted as leave for earned leave?,1,0.6555,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2025-12-31T15:36:18,Are weekends counted as leave for earned leave?,2,0.7378,leave_policy.pdf,0,Earned Leave (EL)   Eligibility:  o Employees become eligible for Earned Leave 
+2025-12-31T15:36:18,Are weekends counted as leave for earned leave?,3,0.7619,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T15:36:18,Are weekends counted as leave for earned leave?,4,0.7772,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:36:18,Are weekends counted as leave for earned leave?,5,0.7858,leave_policy.pdf,3,Public Holidays   The organization provides 12 public holidays each year.   Th
+2025-12-31T15:36:31,"Can medical leave be accumulated? If yes, up to how many days",1,0.4302,leave_policy.pdf,1, Accumulation:  o Medical Leave can be accumulated up to a maximum of 28 days. 
+2025-12-31T15:36:31,"Can medical leave be accumulated? If yes, up to how many days",2,0.4928,leave_policy.pdf,1,Medical Leave (ML)   Eligibility:  o Employees become eligible for Medical Leav
+2025-12-31T15:36:31,"Can medical leave be accumulated? If yes, up to how many days",3,0.6633,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T15:36:31,"Can medical leave be accumulated? If yes, up to how many days",4,0.7534,leave_policy.pdf,0,Earned Leave (EL)   Eligibility:  o Employees become eligible for Earned Leave 
+2025-12-31T15:36:31,"Can medical leave be accumulated? If yes, up to how many days",5,0.7676,leave_policy.pdf,1,o   Maternity Leave   Eligibility:  o Female employees who have worked for more
+2025-12-31T15:37:23,What happens to casual leave at the end of the year?,1,0.7158,leave_policy.pdf,0," New Joiners:  o For employees joining mid-year, Casual Leave is credited on a "
+2025-12-31T15:37:23,What happens to casual leave at the end of the year?,2,0.7359,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:37:23,What happens to casual leave at the end of the year?,3,0.7776,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2025-12-31T15:37:23,What happens to casual leave at the end of the year?,4,0.8213,leave_policy.pdf,2, No automatic promotion is granted due to qualifications earned.    Leave Witho
+2025-12-31T15:37:23,What happens to casual leave at the end of the year?,5,0.8276,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T15:37:37,What is the probation period duration?,1,0.5699,hr_policy_manual.pdf,0,The standard probation period is six months from the date of joining. During thi
+2025-12-31T15:37:37,What is the probation period duration?,2,0.6924,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T15:37:37,What is the probation period duration?,3,0.7817,leave_policy.pdf,2,o Employees who have completed four years of service after probation may be cons
+2025-12-31T15:37:37,What is the probation period duration?,4,0.9001,hr_policy_manual.pdf,0,• Performance feedback may be provided periodically.    3. Confirmation of Emplo
+2025-12-31T15:37:37,What is the probation period duration?,5,0.9048,leave_policy.pdf,0,Earned Leave (EL)   Eligibility:  o Employees become eligible for Earned Leave 
+2025-12-31T15:37:52,How does confirmation of employment work?,1,0.7027,hr_policy_manual.pdf,0,• Performance feedback may be provided periodically.    3. Confirmation of Emplo
+2025-12-31T15:37:52,How does confirmation of employment work?,2,0.7524,hr_policy_manual.pdf,0,The standard probation period is six months from the date of joining. During thi
+2025-12-31T15:37:52,How does confirmation of employment work?,3,0.8748,hr_policy_manual.pdf,0,• Confirmation is subject to satisfactory performance and compliance with  compa
+2025-12-31T15:37:52,How does confirmation of employment work?,4,0.9283,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T15:37:52,How does confirmation of employment work?,5,0.9764,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T15:38:08,What is the resignation process?,1,0.579,hr_policy_manual.pdf,1,period.    7. Resignation Process  Employees wishing to resign must follow the f
+2025-12-31T15:38:08,What is the resignation process?,2,0.7575,hr_policy_manual.pdf,1,6. Notice Period Policy  Employees are required to serve a notice period when re
+2025-12-31T15:38:08,What is the resignation process?,3,0.8879,hr_policy_manual.pdf,1,"8. Exit and Full & Final Settlement  Upon separation, employees are required to "
+2025-12-31T15:38:08,What is the resignation process?,4,0.9458,hr_policy_manual.pdf,0,• Performance feedback may be provided periodically.    3. Confirmation of Emplo
+2025-12-31T15:38:08,What is the resignation process?,5,0.9611,hr_policy_manual.pdf,0,• Confirmation is subject to satisfactory performance and compliance with  compa
+2025-12-31T15:38:45,What are the exit formalities for an employee?,1,0.5316,hr_policy_manual.pdf,1,"8. Exit and Full & Final Settlement  Upon separation, employees are required to "
+2025-12-31T15:38:45,What are the exit formalities for an employee?,2,0.6434,hr_policy_manual.pdf,1,period.    7. Resignation Process  Employees wishing to resign must follow the f
+2025-12-31T15:38:45,What are the exit formalities for an employee?,3,0.7931,hr_policy_manual.pdf,1,6. Notice Period Policy  Employees are required to serve a notice period when re
+2025-12-31T15:38:45,What are the exit formalities for an employee?,4,0.7949,employee_handbook.pdf,0,approved by their reporting manager.    3. Attendance and Punctuality  Employees
+2025-12-31T15:38:45,What are the exit formalities for an employee?,5,0.8317,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T15:39:32,How can an employee raise a grievance?,1,0.7753,employee_handbook.pdf,2,"14. Disciplinary Procedure  Policy violations may result in disciplinary action,"
+2025-12-31T15:39:32,How can an employee raise a grievance?,2,0.8498,employee_handbook.pdf,0,• Ridiculing or humiliating someone in front of others  Sexual harassment is ill
+2025-12-31T15:39:32,How can an employee raise a grievance?,3,0.8739,employee_handbook.pdf,0,"All employees are expected to act professionally, ethically, and responsibly at "
+2025-12-31T15:39:32,How can an employee raise a grievance?,4,0.8801,employee_handbook.pdf,0,All reports will be handled confidentially.    Workplace Violence  Workplace vio
+2025-12-31T15:39:32,How can an employee raise a grievance?,5,0.9034,employee_handbook.pdf,2,responsibilities. Any potential conflict of interest should be disclosed to HR o
+2025-12-31T15:39:42,Can employees use personal cell phones at work?,1,0.5241,employee_handbook.pdf,2,Cell Phone Usage  Employees may use personal cell phones responsibly. Personal c
+2025-12-31T15:39:42,Can employees use personal cell phones at work?,2,0.7971,employee_handbook.pdf,1,is respected.    9. Cyber Security and Digital Devices  Internet Usage  Company 
+2025-12-31T15:39:42,Can employees use personal cell phones at work?,3,0.8501,employee_handbook.pdf,2,responsibilities. Any potential conflict of interest should be disclosed to HR o
+2025-12-31T15:39:42,Can employees use personal cell phones at work?,4,0.8684,employee_handbook.pdf,2,• Spamming  • Sharing confidential information    Social Media  Employees may us
+2025-12-31T15:39:42,Can employees use personal cell phones at work?,5,0.8723,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:40:15,Is smoking allowed in the workplace?,1,0.6197,employee_handbook.pdf,1,• Clearly marked evacuation routes  • Functional fire safety equipment  • Posted
+2025-12-31T15:40:15,Is smoking allowed in the workplace?,2,0.8532,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:40:15,Is smoking allowed in the workplace?,3,0.9188,employee_handbook.pdf,0,All reports will be handled confidentially.    Workplace Violence  Workplace vio
+2025-12-31T15:40:15,Is smoking allowed in the workplace?,4,0.9224,employee_handbook.pdf,0,"All employees are expected to act professionally, ethically, and responsibly at "
+2025-12-31T15:40:15,Is smoking allowed in the workplace?,5,0.9336,employee_handbook.pdf,2,responsibilities. Any potential conflict of interest should be disclosed to HR o
+2025-12-31T15:40:41,Can employees use personal cell phones at work?,1,0.5241,employee_handbook.pdf,2,Cell Phone Usage  Employees may use personal cell phones responsibly. Personal c
+2025-12-31T15:40:41,Can employees use personal cell phones at work?,2,0.7971,employee_handbook.pdf,1,is respected.    9. Cyber Security and Digital Devices  Internet Usage  Company 
+2025-12-31T15:40:41,Can employees use personal cell phones at work?,3,0.8501,employee_handbook.pdf,2,responsibilities. Any potential conflict of interest should be disclosed to HR o
+2025-12-31T15:40:41,Can employees use personal cell phones at work?,4,0.8684,employee_handbook.pdf,2,• Spamming  • Sharing confidential information    Social Media  Employees may us
+2025-12-31T15:40:41,Can employees use personal cell phones at work?,5,0.8723,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:40:55,What are the working hours of the company?,1,0.7156,employee_handbook.pdf,0,"1. Introduction  This Employee Handbook outlines the company’s expectations, pol"
+2025-12-31T15:40:55,What are the working hours of the company?,2,0.8744,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:40:55,What are the working hours of the company?,3,0.9041,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:40:55,What are the working hours of the company?,4,0.9589,hr_policy_manual.pdf,0,The standard probation period is six months from the date of joining. During thi
+2025-12-31T15:40:55,What are the working hours of the company?,5,0.981,leave_policy.pdf,0," New Joiners:  o For employees joining mid-year, Casual Leave is credited on a "
+2025-12-31T15:41:10,What is the dress code policy?,1,0.8319,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:41:10,What is the dress code policy?,2,1.1202,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T15:41:10,What is the dress code policy?,3,1.1424,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T15:41:10,What is the dress code policy?,4,1.1453,employee_handbook.pdf,0,approved by their reporting manager.    3. Attendance and Punctuality  Employees
+2025-12-31T15:41:10,What is the dress code policy?,5,1.1495,hr_policy_manual.pdf,0,"• Employees receive feedback on goals, responsibilities, and areas of  improveme"
+2025-12-31T15:41:33,What is the CEO’s salary?,1,1.0908,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:41:33,What is the CEO’s salary?,2,1.1745,leave_policy.pdf,0,Earned Leave (EL)   Eligibility:  o Employees become eligible for Earned Leave 
+2025-12-31T15:41:33,What is the CEO’s salary?,3,1.1842,leave_policy.pdf,2,o Employees who have completed four years of service after probation may be cons
+2025-12-31T15:41:33,What is the CEO’s salary?,4,1.1916,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T15:41:33,What is the CEO’s salary?,5,1.1969,leave_policy.pdf,0," New Joiners:  o For employees joining mid-year, Casual Leave is credited on a "
+2025-12-31T15:41:41,What is the office WiFi password?,1,1.04,employee_handbook.pdf,1,is respected.    9. Cyber Security and Digital Devices  Internet Usage  Company 
+2025-12-31T15:41:41,What is the office WiFi password?,2,1.1402,leave_policy.pdf,3, Advance Communication:  o All leave and Work From Home requests must be commun
+2025-12-31T15:41:41,What is the office WiFi password?,3,1.1505,employee_handbook.pdf,0,All reports will be handled confidentially.    Workplace Violence  Workplace vio
+2025-12-31T15:41:41,What is the office WiFi password?,4,1.1552,employee_handbook.pdf,0,"1. Introduction  This Employee Handbook outlines the company’s expectations, pol"
+2025-12-31T15:41:41,What is the office WiFi password?,5,1.1564,leave_policy.pdf,3,the day the leave is taken.  o Communication can be made via:   Phone call   E
+2025-12-31T15:41:51,What programming language does the company use?,1,1.0702,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:41:51,What programming language does the company use?,2,1.0996,hr_policy_manual.pdf,0,• Confirmation is subject to satisfactory performance and compliance with  compa
+2025-12-31T15:41:51,What programming language does the company use?,3,1.1468,employee_handbook.pdf,0,"1. Introduction  This Employee Handbook outlines the company’s expectations, pol"
+2025-12-31T15:41:51,What programming language does the company use?,4,1.1554,hr_policy_manual.pdf,0,• Performance feedback may be provided periodically.    3. Confirmation of Emplo
+2025-12-31T15:41:51,What programming language does the company use?,5,1.1658,employee_handbook.pdf,1,is respected.    9. Cyber Security and Digital Devices  Internet Usage  Company 
+2025-12-31T15:42:03,What is the company stock price?,1,1.118,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:42:03,What is the company stock price?,2,1.1862,employee_handbook.pdf,3,16. Policy Amendments  The company reserves the right to modify or update polici
+2025-12-31T15:42:03,What is the company stock price?,3,1.2064,employee_handbook.pdf,0,"1. Introduction  This Employee Handbook outlines the company’s expectations, pol"
+2025-12-31T15:42:03,What is the company stock price?,4,1.2105,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:42:03,What is the company stock price?,5,1.2231,hr_policy_manual.pdf,0,• Confirmation is subject to satisfactory performance and compliance with  compa
+2025-12-31T15:42:12,Tell me about company rules.,1,0.719,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T15:42:12,Tell me about company rules.,2,0.7751,employee_handbook.pdf,0,"1. Introduction  This Employee Handbook outlines the company’s expectations, pol"
+2025-12-31T15:42:12,Tell me about company rules.,3,0.778,employee_handbook.pdf,2,responsibilities. Any potential conflict of interest should be disclosed to HR o
+2025-12-31T15:42:12,Tell me about company rules.,4,0.7907,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T15:42:12,Tell me about company rules.,5,0.7953,employee_handbook.pdf,0,approved by their reporting manager.    3. Attendance and Punctuality  Employees
+2025-12-31T15:42:20,Explain HR policy,1,0.7292,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T15:42:20,Explain HR policy,2,0.7826,hr_policy_manual.pdf,1,business requirements and employee suitability.  Transfers are communicated form
+2025-12-31T15:42:20,Explain HR policy,3,0.8737,employee_handbook.pdf,2,responsibilities. Any potential conflict of interest should be disclosed to HR o
+2025-12-31T15:42:20,Explain HR policy,4,0.8739,employee_handbook.pdf,0,"All employees are expected to act professionally, ethically, and responsibly at "
+2025-12-31T15:42:20,Explain HR policy,5,0.8919,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T15:42:31,What are employee benefits?,1,0.9743,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T15:42:31,What are employee benefits?,2,1.003,employee_handbook.pdf,0,"All employees are expected to act professionally, ethically, and responsibly at "
+2025-12-31T15:42:31,What are employee benefits?,3,1.0183,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T15:42:31,What are employee benefits?,4,1.0201,employee_handbook.pdf,2,responsibilities. Any potential conflict of interest should be disclosed to HR o
+2025-12-31T15:42:31,What are employee benefits?,5,1.0266,hr_policy_manual.pdf,0,• Confirmation is subject to satisfactory performance and compliance with  compa
+2025-12-31T15:42:48,tell me about leave rules,1,0.6819,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2025-12-31T15:42:48,tell me about leave rules,2,0.7434,leave_policy.pdf,3, Advance Communication:  o All leave and Work From Home requests must be commun
+2025-12-31T15:42:48,tell me about leave rules,3,0.7772,leave_policy.pdf,3,the day the leave is taken.  o Communication can be made via:   Phone call   E
+2025-12-31T15:42:48,tell me about leave rules,4,0.7851,leave_policy.pdf,0," New Joiners:  o For employees joining mid-year, Casual Leave is credited on a "
+2025-12-31T15:42:48,tell me about leave rules,5,0.7906,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T16:04:06,What is the dress code policy?,1,0.8319,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T16:04:06,What is the dress code policy?,2,1.1202,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T16:04:06,What is the dress code policy?,3,1.1424,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T16:04:06,What is the dress code policy?,4,1.1453,employee_handbook.pdf,0,approved by their reporting manager.    3. Attendance and Punctuality  Employees
+2025-12-31T16:04:06,What is the dress code policy?,5,1.1495,hr_policy_manual.pdf,0,"• Employees receive feedback on goals, responsibilities, and areas of  improveme"
+2025-12-31T16:04:25,How many medical leaves are allowed?,1,0.566,leave_policy.pdf,1, Accumulation:  o Medical Leave can be accumulated up to a maximum of 28 days. 
+2025-12-31T16:04:25,How many medical leaves are allowed?,2,0.5993,leave_policy.pdf,1,Medical Leave (ML)   Eligibility:  o Employees become eligible for Medical Leav
+2025-12-31T16:04:25,How many medical leaves are allowed?,3,0.7539,leave_policy.pdf,1,o   Maternity Leave   Eligibility:  o Female employees who have worked for more
+2025-12-31T16:04:25,How many medical leaves are allowed?,4,0.7712,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2025-12-31T16:04:25,How many medical leaves are allowed?,5,0.8167,leave_policy.pdf,2,Paternity Leave   Eligibility:  o Male employees are eligible for paternity lea
+2025-12-31T16:05:53,What is the probation period?,1,0.6025,hr_policy_manual.pdf,0,The standard probation period is six months from the date of joining. During thi
+2025-12-31T16:05:53,What is the probation period?,2,0.7096,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T16:05:53,What is the probation period?,3,0.8447,leave_policy.pdf,2,o Employees who have completed four years of service after probation may be cons
+2025-12-31T16:05:53,What is the probation period?,4,0.8929,hr_policy_manual.pdf,0,• Performance feedback may be provided periodically.    3. Confirmation of Emplo
+2025-12-31T16:05:53,What is the probation period?,5,0.9291,leave_policy.pdf,0,Earned Leave (EL)   Eligibility:  o Employees become eligible for Earned Leave 
+2025-12-31T16:15:19,What is the dress code policy?,1,0.8319,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T16:15:19,What is the dress code policy?,2,1.1202,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T16:15:19,What is the dress code policy?,3,1.1424,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T16:15:19,What is the dress code policy?,4,1.1453,employee_handbook.pdf,0,approved by their reporting manager.    3. Attendance and Punctuality  Employees
+2025-12-31T16:15:19,What is the dress code policy?,5,1.1495,hr_policy_manual.pdf,0,"• Employees receive feedback on goals, responsibilities, and areas of  improveme"
+2025-12-31T16:16:23,What is the dress code policy?,1,0.8319,employee_handbook.pdf,1,Violations may result in termination.  Alcohol  Alcohol consumption during worki
+2025-12-31T16:16:23,What is the dress code policy?,2,1.1202,employee_handbook.pdf,2,"12. Employment of Relatives  Employees may refer relatives for employment, provi"
+2025-12-31T16:16:23,What is the dress code policy?,3,1.1424,hr_policy_manual.pdf,0,HR POLICY MANUAL  1. Purpose of the HR Policy Manual  This HR Policy Manual defi
+2025-12-31T16:16:23,What is the dress code policy?,4,1.1453,employee_handbook.pdf,0,approved by their reporting manager.    3. Attendance and Punctuality  Employees
+2025-12-31T16:16:23,What is the dress code policy?,5,1.1495,hr_policy_manual.pdf,0,"• Employees receive feedback on goals, responsibilities, and areas of  improveme"
+2025-12-31T16:20:20,Is a doctor’s certificate required for medical leave?,1,0.6894,leave_policy.pdf,1, Accumulation:  o Medical Leave can be accumulated up to a maximum of 28 days. 
+2025-12-31T16:20:20,Is a doctor’s certificate required for medical leave?,2,0.7706,leave_policy.pdf,1,Medical Leave (ML)   Eligibility:  o Employees become eligible for Medical Leav
+2025-12-31T16:20:20,Is a doctor’s certificate required for medical leave?,3,0.9071,leave_policy.pdf,2, No automatic promotion is granted due to qualifications earned.    Leave Witho
+2025-12-31T16:20:20,Is a doctor’s certificate required for medical leave?,4,0.9163,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2025-12-31T16:20:20,Is a doctor’s certificate required for medical leave?,5,0.9476,leave_policy.pdf,2,o Employees who have completed four years of service after probation may be cons
+2025-12-31T16:20:42,What happens to casual leave at the end of the year?,1,0.7158,leave_policy.pdf,0," New Joiners:  o For employees joining mid-year, Casual Leave is credited on a "
+2025-12-31T16:20:42,What happens to casual leave at the end of the year?,2,0.7359,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T16:20:42,What happens to casual leave at the end of the year?,3,0.7776,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2025-12-31T16:20:42,What happens to casual leave at the end of the year?,4,0.8213,leave_policy.pdf,2, No automatic promotion is granted due to qualifications earned.    Leave Witho
+2025-12-31T16:20:42,What happens to casual leave at the end of the year?,5,0.8276,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T16:21:16,Can earned leave be encashed?,1,0.5469,leave_policy.pdf,0, Accumulation:  o Earned Leave can be accumulated up to a maximum of 30 days.  
+2025-12-31T16:21:16,Can earned leave be encashed?,2,0.7144,leave_policy.pdf,0,Earned Leave (EL)   Eligibility:  o Employees become eligible for Earned Leave 
+2025-12-31T16:21:16,Can earned leave be encashed?,3,0.7739,leave_policy.pdf,0,o Casual Leave cannot be encashed.   Notice Period:  o Employees serving the no
+2025-12-31T16:21:16,Can earned leave be encashed?,4,0.8081,leave_policy.pdf,0,completion of contract.   Notice Period:  o Earned Leave can be adjusted during
+2025-12-31T16:21:16,Can earned leave be encashed?,5,0.8316,leave_policy.pdf,1, Accumulation:  o Medical Leave can be accumulated up to a maximum of 28 days. 
+2026-01-01T09:22:02,what is mean by medical leave,1,0.7066,leave_policy.pdf,1,Medical Leave (ML)   Eligibility:  o Employees become eligible for Medical Leav
+2026-01-01T09:22:02,what is mean by medical leave,2,0.7489,leave_policy.pdf,1, Accumulation:  o Medical Leave can be accumulated up to a maximum of 28 days. 
+2026-01-01T09:22:02,what is mean by medical leave,3,0.8145,leave_policy.pdf,2, No automatic promotion is granted due to qualifications earned.    Leave Witho
+2026-01-01T09:22:02,what is mean by medical leave,4,0.8717,leave_policy.pdf,3,beginning of each calendar year.    Taking Leave   Leave Counting Rules:  o For
+2026-01-01T09:22:02,what is mean by medical leave,5,0.9598,leave_policy.pdf,1,o   Maternity Leave   Eligibility:  o Female employees who have worked for more

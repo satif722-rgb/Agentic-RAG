@@ -1,0 +1,9 @@
+langgraph
+notebook
+pydantic
+langchain-core
+langchain-community
+langchain-groq
+pymupdf
+sqlite3
+faker
