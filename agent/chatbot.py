@@ -7,24 +7,30 @@ from tools.tools import hr_policy_lookup,get_leave_balance
 from langchain.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 from langgraph.checkpoint.memory import MemorySaver
+import sqlite3
 
 policy_extractor_llm = ChatOllama(
     model="llama3.2",
     temperature=0
 )
 class HRState(TypedDict):
-    
+
     question: Annotated[str, LastValue]
 
     employee_id: Optional[str]
     leave_type: Optional[str]
+    days: Optional[int] 
 
     route: Optional[str]
 
     policy_question: Optional[str]
     policy_answer: Optional[str]
     personal_answer: Optional[str]
+    apply_answer: Optional[str] 
     final_answer: Optional[str]
+    history_answer: Optional[str]
+
+
 
 
 llm=ChatOllama(model="llama3.2")
@@ -79,20 +85,29 @@ policy OR personal OR mixed
 """),
     ("human", "{question}")
 ])
+
+def extract_days(text: str):
+    match = re.search(r"\b(\d+)\s*day", text.lower())
+    return int(match.group(1)) if match else None
+
+
 def detect_route(question: str) -> str:
     q = question.lower()
 
-    policy_keywords = ["policy", "rule", "allowed", "entitled"]
-    personal_keywords = ["my", "i have", "balance", "remaining"]
+    if "apply" in q:
+        return "apply"
+    
+    if "history" in q:
+        return "history"
 
-    is_policy = any(k in q for k in policy_keywords)
-    is_personal = any(k in q for k in personal_keywords)
-
-    if is_policy and is_personal:
-        return "mixed"
-    if is_personal:
+    if "balance" in q or "how many" in q:
         return "personal"
+
+    if "policy" in q or "rule" in q:
+        return "policy"
+
     return "policy"
+
 
 
 def router_node(state: HRState):
@@ -100,9 +115,10 @@ def router_node(state: HRState):
 
     updates = {}
 
-    # 🔥 Clear previous answers every new turn
+    # RESET all previous outputs
     updates["policy_answer"] = None
     updates["personal_answer"] = None
+    updates["apply_answer"] = None  # ✅ VERY IMPORTANT
 
     # Extract employee ID
     extracted_id = extract_employee_id(question)
@@ -114,11 +130,17 @@ def router_node(state: HRState):
     if extracted_leave:
         updates["leave_type"] = extracted_leave
 
+    # Extract days
+    extracted_days = extract_days(question)
+    if extracted_days:
+        updates["days"] = extracted_days
+    else:
+        updates["days"] = None   # ✅ reset days
+
     route = detect_route(question)
     updates["route"] = route
 
     return updates
-
 
 
 def extract_leave_type(text: str):
@@ -202,12 +224,85 @@ def personal_node(state: HRState):
     return {"personal_answer": answer}
 
 
+def apply_node(state: HRState):
+    employee_id = state.get("employee_id")
+    leave_type = state.get("leave_type")
+    days = state.get("days")
+
+    if not employee_id:
+        return {
+            "apply_answer": "Please provide your employee ID (e.g., EMP101)."
+        }
+
+    if not leave_type:
+        return {
+            "apply_answer": "Please specify leave type (medical, casual, earned)."
+        }
+
+    if not days:
+        return {
+            "apply_answer": "Please specify number of days."
+        }
+
+    leave_type = normalize_db_leave_type(leave_type)
+
+    result = apply_leave_action(employee_id, leave_type, days)
+
+    if isinstance(result, dict):
+        message = result.get("message", str(result))
+    else:
+        message = str(result)
+
+    return {"apply_answer": message}
+
+def history_node(state: HRState):
+    employee_id = state.get("employee_id")
+
+    if not employee_id:
+        return {
+            "history_answer": "Please provide your employee ID to view leave history."
+        }
+
+    conn = sqlite3.connect("db/hr.db")
+    cursor = conn.cursor()
+
+    cursor.execute(
+        """
+        SELECT leave_type, days, status, applied_on
+        FROM leave_applications
+        WHERE employee_id=?
+        ORDER BY applied_on DESC
+        """,
+        (employee_id,)
+    )
+
+    rows = cursor.fetchall()
+    conn.close()
+
+    if not rows:
+        return {"history_answer": "No leave applications found."}
+
+    history_text = "Your Leave History:\n\n"
+
+    for leave_type, days, status, date in rows:
+        history_text += f"- {leave_type} | {days} days | {status} | {date}\n"
+
+    return {"history_answer": history_text}
+
 
 def composer_node(state: HRState):
     policy = state.get("policy_answer")
     personal = state.get("personal_answer")
+    apply_answer = state.get("apply_answer")
+    history = state.get("history_answer")
 
-    if policy and personal:
+    if apply_answer:
+        final = apply_answer
+
+    elif apply_answer and history:
+        final=f"{apply_answer}\n\n{history}"
+
+    elif policy and personal:
         final = f"{policy}\n\n{personal}"
 
     elif policy:
@@ -215,6 +310,9 @@ def composer_node(state: HRState):
 
     elif personal:
         final = personal
+    
+    elif history:
+        final = history
 
     else:
         final = "I'm not sure how to help with that."
@@ -263,7 +361,14 @@ def extract_employee_id(text: str):
     match = re.search(r"\bEMP\d+\b", text.upper())
     return match.group(0) if match else None
 
-
+import requests
+def apply_leave_action(employee_id, leave_type, days):
+    res = requests.post("http://localhost:8000/apply-leave", json={
+       "employee_id": employee_id,
+       "leave_type": leave_type,
+       "days": days
+    })
+    return res.json()
 
 
 
@@ -273,6 +378,8 @@ def build_hr_graph():
     graph.add_node("router", router_node)
     graph.add_node("policy_node", policy_node)
     graph.add_node("personal_node", personal_node)
+    graph.add_node("apply_node", apply_node)
+    graph.add_node("history_node", history_node)
     graph.add_node("composer", composer_node)
 
     graph.set_entry_point("router")
@@ -285,8 +392,11 @@ def build_hr_graph():
         "policy": "policy_node",
         "personal": "personal_node",
         "mixed": "policy_node",
+        "apply": "apply_node",
+        "history": "history_node",
     }
 )
+
 
 
     graph.add_conditional_edges(
@@ -299,7 +409,8 @@ def build_hr_graph():
 )
 
     graph.add_edge("personal_node", "composer")
-
+    graph.add_edge("apply_node", "composer")
+    graph.add_edge("history_node", "composer")
     graph.add_edge("composer", END)
 
     memory=MemorySaver()

@@ -1,6 +1,6 @@
 from langchain.tools import tool
 import requests
-
+import sqlite3
 
 @tool
 def hr_policy_lookup(question: str) -> str:
@@ -13,41 +13,59 @@ def hr_policy_lookup(question: str) -> str:
 
 
 @tool
-def get_leave_balance(employee_id: str, leave_type: str) -> str:
+def get_leave_balance(employee_id: str, leave_type: str):
     """
-    Retrieve an employee's leave balance for a specific leave type
-    from the HR leave management system.
+    Get leave balance for an employee.
     """
-    try:
-        url = f"http://localhost:8000/leave-balance/{employee_id}/{leave_type}"
-        response = requests.get(url, timeout=3)
-        response.raise_for_status()
 
-        data = response.json()
+    conn = sqlite3.connect("db/hr.db")
+    cursor = conn.cursor()
 
-        # ✅ Correct parsing for your API structure
-        name = data.get("employee_name", "Employee")
-        remaining = data.get("remaining")
-        total = data.get("total_allowed")
-        used = data.get("used")
+    cursor.execute(
+        """
+        SELECT total_allowed, used, remaining
+        FROM leave_balances
+        WHERE employee_id=? AND leave_type=?
+        """,
+        (employee_id, leave_type),
+    )
 
-        if remaining is not None:
-            return (
-                f"{name}, you have {remaining} {leave_type} leaves remaining "
-                f"out of {total}. You have used {used} so far."
-            )
+    result = cursor.fetchone()
+    conn.close()
 
-        return "Leave balance information is unavailable."
+    if not result:
+        return "Employee or leave type not found."
 
-    except requests.exceptions.HTTPError:
-        return "No leave balance found for your account."
+    total, used, remaining = result
 
-    except requests.exceptions.ConnectionError:
-        return "HR system is temporarily unavailable."
+    return (
+        f"You have {remaining} {leave_type} leaves remaining "
+        f"out of {total}. You have used {used} so far."
+    )
 
-    except requests.exceptions.Timeout:
-        return "HR system took too long to respond."
+    
+@tool
+def apply_leave_tool(employee_id: str, leave_type: str, days: int):
+    """
+    Apply leave for an employee.
 
-    except Exception:
-        return "Unexpected error while retrieving leave balance."
+    Args:
+        employee_id: Employee ID (e.g., EMP101)
+        leave_type: Type of leave (medical, casual, earned)
+        days: Number of leave days to apply
+
+    Returns:
+        JSON response from leave application API
+    """
+
+    response = requests.post(
+        "http://localhost:8000/apply-leave",
+        json={
+            "employee_id": employee_id,
+            "leave_type": leave_type,
+            "days": days
+        }
+    )
+
+    return response.json()
 

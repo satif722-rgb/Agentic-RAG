@@ -22,3 +22,15 @@ if __name__ == "__main__":
         print("\nHR Assistant:")
         print(result.get("final_answer"))
         print()
+
+
+"""import sqlite3
+
+conn = sqlite3.connect("db/hr.db")
+cursor = conn.cursor()
+
+cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+print(cursor.fetchall())
+
+conn.close()
+"""
